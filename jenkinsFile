@@ -122,7 +122,7 @@ stages {
 					if [ $? -eq 0 ]; then
 						echo -e "\n      RESULT -> TEST_CASE (${count}): SUCCESS" 
 					else  
-						echo -e "\n      RESULT -> TEST_CASE (${count}): FAILED"
+						echo -e "\n      REeSULT -> TEST_CASE (${count}): FAILED"
 						exit 1
 					fi
 
